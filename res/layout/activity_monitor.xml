@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?><RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dip" >
+
+       <Button
+           android:id="@+id/B2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentRight="true"
+           android:layout_centerVertical="true"
+           android:text="Dis-LDR" />
+
+       <ImageButton
+           android:id="@+id/Button13"
+           android:layout_width="60dp"
+           android:layout_height="60dp"
+           android:layout_alignRight="@+id/B2"
+           android:layout_below="@+id/B2"
+           android:background="@drawable/obstacle_unpressed" />
+
+       <ImageButton
+           android:id="@+id/Button5"
+           android:layout_width="60dp"
+           android:layout_height="60dp"
+           android:layout_alignParentLeft="true"
+           android:layout_alignTop="@+id/Button13"
+           android:layout_marginTop="35dp"
+           android:background="@drawable/unpressed_fl" />
+
+       <ImageButton
+           android:id="@+id/Button6"
+           android:layout_width="60dp"
+           android:layout_height="60dp"
+           android:layout_alignTop="@+id/Button5"
+           android:layout_centerHorizontal="true"
+           android:background="@drawable/unpressed_rf" />
+
+       <ImageButton
+           android:id="@+id/Button12"
+           android:layout_width="60dp"
+           android:layout_height="60dp"
+           android:layout_alignLeft="@+id/Button13"
+           android:layout_below="@+id/Button13"
+           android:background="@drawable/ldr_unpressed" />
+
+       <ImageButton
+           android:id="@+id/Button1"
+           android:layout_width="60dp"
+           android:layout_height="60dp"
+           android:layout_alignTop="@+id/Button6"
+           android:layout_toLeftOf="@+id/Button6"
+           android:background="@drawable/unpressed_f" />
+
+       <ImageButton
+           android:id="@+id/Button3"
+           android:layout_width="60dp"
+           android:layout_height="60dp"
+           android:layout_alignLeft="@+id/Button5"
+           android:layout_below="@+id/Button5"
+           android:background="@drawable/unpressed_l" />
+
+       <ImageButton
+           android:id="@+id/Button7"
+           android:layout_width="60dp"
+           android:layout_height="60dp"
+           android:layout_alignLeft="@+id/Button3"
+           android:layout_below="@+id/Button3"
+           android:background="@drawable/unpressed_bl" />
+
+       <ImageButton
+           android:id="@+id/Button10"
+           android:layout_width="60dp"
+           android:layout_height="60dp"
+           android:layout_above="@+id/Button7"
+           android:layout_toLeftOf="@+id/Button6"
+           android:background="@drawable/engine_start_unpressed" />
+
+       <ImageButton
+           android:id="@+id/Button4"
+           android:layout_width="60dp"
+           android:layout_height="60dp"
+           android:layout_above="@+id/Button7"
+           android:layout_alignLeft="@+id/Button6"
+           android:background="@drawable/unpressed_r" />
+
+       <ImageButton
+           android:id="@+id/Button2"
+           android:layout_width="60dp"
+           android:layout_height="60dp"
+           android:layout_alignParentBottom="true"
+           android:layout_toLeftOf="@+id/Button4"
+           android:background="@drawable/unpressed_b" />
+
+       <ImageButton
+           android:id="@+id/Button11"
+           android:layout_width="60dp"
+           android:layout_height="60dp"
+           android:layout_alignLeft="@+id/Button12"
+           android:layout_below="@+id/Button12"
+           android:background="@drawable/sonar_unpressed" />
+
+       <ImageView
+           android:id="@+id/imageView1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_above="@+id/B2"
+           android:layout_centerHorizontal="true"
+           android:src="@drawable/ebot_topview" />
+       <TextView
+           android:id="@+id/sonarB"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="B"
+           android:textAppearance="?android:attr/textAppearanceMedium" />
+
+       <Button
+           android:id="@+id/B3"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_above="@+id/Button1"
+           android:layout_alignLeft="@+id/Button5"
+           android:text="Dis-Sonar" />
+
+       <Button
+           android:id="@+id/B1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignBaseline="@+id/B3"
+           android:layout_alignBottom="@+id/B3"
+           android:layout_toRightOf="@+id/B3"
+           android:text="Dis-Obstacle" />
+
+       <ImageButton
+           android:id="@+id/Button8"
+           android:layout_width="60dp"
+           android:layout_height="60dp"
+           android:layout_alignLeft="@+id/Button4"
+           android:layout_below="@+id/Button4"
+           android:background="@drawable/unpressed_br" />
+
+       <TextView
+           android:id="@+id/obsF"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignTop="@+id/imageView1"
+           android:layout_centerHorizontal="true"
+           android:layout_marginTop="30dp"
+           android:text="obsF"
+           android:textAppearance="?android:attr/textAppearanceMedium" />
+
+       <TextView
+           android:id="@+id/ldrT"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_above="@+id/ldrF"
+           android:layout_alignRight="@+id/sonarR"
+           android:text="T"
+           android:textAppearance="?android:attr/textAppearanceMedium" />
+
+       <TextView
+           android:id="@+id/sonarF"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignBaseline="@+id/ldrF"
+           android:layout_alignBottom="@+id/ldrF"
+           android:layout_alignRight="@+id/obsF"
+           android:text="F"
+           android:textAppearance="?android:attr/textAppearanceMedium" />
+
+       <TextView
+           android:id="@+id/sonarFL"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignLeft="@+id/imageView1"
+           android:layout_alignTop="@+id/imageView1"
+           android:text="FL"
+           android:textAppearance="?android:attr/textAppearanceMedium" />
+
+       <TextView
+           android:id="@+id/sonarFR"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignTop="@+id/imageView1"
+           android:layout_toLeftOf="@+id/Button13"
+           android:text="FR"
+           android:textAppearance="?android:attr/textAppearanceMedium" />
+
+       <TextView
+           android:id="@+id/ldrF"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/sonarB"
+           android:layout_toLeftOf="@+id/sonarF"
+           android:text="ldrF"
+           android:textAppearance="?android:attr/textAppearanceMedium" />
+
+       <TextView
+           android:id="@+id/sonarL"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignBottom="@+id/imageView1"
+           android:layout_marginBottom="30dp"
+           android:layout_marginRight="14dp"
+           android:layout_toLeftOf="@+id/imageView1"
+           android:text="L"
+           android:textAppearance="?android:attr/textAppearanceMedium" />
+
+       <TextView
+           android:id="@+id/sonarR"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignBaseline="@+id/sonarL"
+           android:layout_alignBottom="@+id/sonarL"
+           android:layout_alignRight="@+id/B2"
+           android:layout_marginRight="15dp"
+           android:text="R"
+           android:textAppearance="?android:attr/textAppearanceMedium" />
+      
+</RelativeLayout>
