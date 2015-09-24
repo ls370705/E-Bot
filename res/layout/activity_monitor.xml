@@ -20,15 +20,6 @@
            android:background="@drawable/obstacle_unpressed" />
 
        <ImageButton
-           android:id="@+id/Button5"
-           android:layout_width="60dp"
-           android:layout_height="60dp"
-           android:layout_alignParentLeft="true"
-           android:layout_alignTop="@+id/Button13"
-           android:layout_marginTop="35dp"
-           android:background="@drawable/unpressed_fl" />
-
-       <ImageButton
            android:id="@+id/Button6"
            android:layout_width="60dp"
            android:layout_height="60dp"
@@ -85,14 +76,6 @@
            android:background="@drawable/unpressed_r" />
 
        <ImageButton
-           android:id="@+id/Button2"
-           android:layout_width="60dp"
-           android:layout_height="60dp"
-           android:layout_alignParentBottom="true"
-           android:layout_toLeftOf="@+id/Button4"
-           android:background="@drawable/unpressed_b" />
-
-       <ImageButton
            android:id="@+id/Button11"
            android:layout_width="60dp"
            android:layout_height="60dp"
@@ -113,14 +96,6 @@
            android:layout_height="wrap_content"
            android:text="B"
            android:textAppearance="?android:attr/textAppearanceMedium" />
-
-       <Button
-           android:id="@+id/B3"
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:layout_above="@+id/Button1"
-           android:layout_alignLeft="@+id/Button5"
-           android:text="Dis-Sonar" />
 
        <Button
            android:id="@+id/B1"
@@ -216,5 +191,29 @@
            android:layout_marginRight="15dp"
            android:text="R"
            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+       <Button
+           android:id="@+id/B3"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignLeft="@+id/Button5"
+           android:layout_below="@+id/imageView1"
+           android:text="Dis-Sonar" />
+
+       <ImageButton
+           android:id="@+id/Button5"
+           android:layout_width="60dp"
+           android:layout_height="60dp"
+           android:layout_above="@+id/Button12"
+           android:layout_alignLeft="@+id/sonarB"
+           android:background="@drawable/unpressed_fl" />
+
+       <ImageButton
+           android:id="@+id/Button2"
+           android:layout_width="60dp"
+           android:layout_height="60dp"
+           android:layout_alignTop="@+id/Button8"
+           android:layout_toLeftOf="@+id/Button8"
+           android:background="@drawable/unpressed_b" />
       
 </RelativeLayout>
